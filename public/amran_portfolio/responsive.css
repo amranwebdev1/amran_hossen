@@ -1,0 +1,272 @@
+/*responsib start*/
+@media (max-width: 768px) {
+  /* nav start*/
+  #na-bar{
+    display: fixed;
+    padding: 20px 5%;
+    flex-direction: column;
+    align-items: start;
+  }
+  #na-bar .logo{
+    font-size: 25px;
+  }
+  #na-bar ul{
+    position: absolute;
+    top: 0;
+    right: -100%;
+    height: 100vh;
+   flex-direction: column;
+   width: 60%;
+   background: #000;
+   display: flex;
+   justify-content: start;
+   align-items: start;
+   opacity: 1;
+   padding-top: 100px;
+   transition: 0.5s;
+  }
+  #na-bar ul.active{
+    right: 0;
+  }
+  #na-bar ul li{
+    margin-bottom: 20px;
+  }
+  #na-bar div{
+    position: absolute;
+    right: 5px;
+    display: flex;
+  }
+  .home{
+    flex-direction: column-reverse;
+    padding-bottom: 50px;
+  }
+  .home .home-info h1{
+    margin-top: 50px;
+    font-size: 30px;
+  }
+  .home .home-info h2{
+    font-size: 25px;
+  }
+  .home .home-info p{
+    font-size: 16px;
+  }
+  .home .home-info .btn-sci{
+    flex-direction: column;
+  }
+  .home .home-info .btn-sci .btn{
+    padding: 5px 15px;
+    margin-bottom: 20px;
+  }
+  .home .home-info .btn-sci .sci a{
+    margin-left: 10px;
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
+  .home-img .img-box{
+    width: 60vw;
+    height: 60vw;
+    padding: 3px;
+  }
+  /*nav end*/
+   /*about start*/
+   .about{
+     padding: 20px 5%;
+   }
+  .about .h1{
+    font-size: 30px;
+    margin-top: 100px;
+    margin-bottom: 10px;
+  }
+  .about .perent .child{
+    grid-template-columns: 1fr;
+  }
+  .about .perent .child .img{
+    width: 300px;
+    height: 300px;
+  }
+  .about .perent .child .text h2{
+    font-size: 22px;
+  }
+  .about .perent .child .text p{
+    font-size: 16px;
+  }
+  .workH1{
+    font-size: 22px;
+  }
+  .about .work{
+    margin: 10px 0px;
+    grid-template-columns: 1fr;
+  }
+  .about .work h1{
+    font-size: 22px;
+    margin-bottom: 0;
+  }
+  .about .work h2{
+    font-size: 20px;
+  }
+  .about .work p{
+    font-size: 16px;
+    width: 100%;
+  }
+  .about .my-scale h1{
+    font-size: 25px;
+  }
+  .about .my-scale .perent{
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+  .about .perent .child .img img:hover{
+    transform: scale(1.02);
+  }
+  .about .my-scale .perent div{
+    padding: 10px;
+  }
+  .about .my-scale .perent div i{
+    font-size: 22px;
+  }
+  .about .my-scale .perent div p{
+    font-size: 16px;
+  }
+  .about .child2 h2{
+    font-size: 22px;
+  }
+  .about .child2 p{
+    font-size: 16px;
+    width: 100%;
+  }
+  .about .slogan h2{
+    font-size: 22px;
+  }
+  .about .slogan i{
+    font-size: 16px;
+    width: 100%;
+  }
+  /*about end*/
+ /*portfolio start*/
+  #portfolio{
+    padding: 100px 5%;
+  }
+  #portfolio h1{
+    font-size: 30px;
+    margin-top: 20px;
+  }
+  #portfolio .contain .project{
+    grid-template-columns: 1fr;
+    padding: 10px;
+    justify-content: center;
+  }
+  #portfolio .contain .project #img-box{
+    width: 300px;
+    height: 300px;
+  }
+  #portfolio .contain .project .text h2{
+    font-size: 22px;
+  }
+  #portfolio .contain .project .text p{
+    font-size: 16px;
+  }
+  #portfolio .contain .project .text div a{
+    font-size: 16px;
+  }
+  /*portfolio end*/
+   /*sarvice start*/
+   #sarvice{
+     padding: 100px 5%;
+   }
+   #sarvice h1{
+     font-size: 30px;
+   }
+   #sarvice .perent{
+     grid-template-columns: 1fr;
+   }
+   #sarvice .perent div{
+     padding: 30px;
+   }
+   #sarvice .perent div i{
+     font-size: 40px;
+   }
+   #sarvice .perent div h2{
+     font-size: 25px;
+   }
+   #sarvice .perent div p{
+     font-size: 18px;
+   }
+   /*sarvice end*/
+ /*contact start*/
+ #contact{
+   padding: 100px 5%;
+ }
+ #contact h1{
+   font-size: 30px;
+ }
+ #contact p{
+   font-size: 16px;
+ }
+ #contact .contact-grid{
+   grid-template-columns: 1fr;
+ }
+ #contact .contact-grid .input-box{
+   padding: 30px;
+ }
+ #contact .contact-grid .input-box input,#contact .contact-grid .input-box textarea{
+   font-size: 16px;
+ }
+ #contact .contact-grid .contac-box p{
+   font-size: 16px;
+   margin-bottom: 20px;
+ }
+ #contact .contact-grid .contac-box p a{
+   font-size: 16px;
+ }
+ #contact .contact-grid .contac-box p a i,#contact .contact-grid .contac-box p i{
+   font-size: 16px;
+   margin-left: 20px;
+ }
+ #contact .contact-grid .contac-box div a{
+   font-size: 16px;
+   
+ }
+ /*contact end*/
+  /*footer start*/
+ footer .parent{
+   grid-template-columns: 1fr;
+ }
+ footer .parent .quite_me{
+   border-left: 3px solid #7cf03d;
+ }
+ footer .parent .quite_me h1{
+   font-size: 22px;
+ }
+ footer .parent .quite_me ul li a{
+   font-size: 16px;
+ }
+footer .parent .contac-box{
+  border-left: 3px solid #7cf03d;
+}
+footer .parent .contac-box h2{
+  font-size: 22px;
+}
+footer .parent .contac-box p a{
+  font-size: 16px;
+}
+footer .parent .contac-box h2{
+  font-size: 22px;
+}
+footer .parent .contac-box p a i,footer .parent .contac-box p i{
+  font-size: 18px;
+}
+footer .parent .contac-box p a{
+  font-size: 16px;
+}
+footer .parent .follow{
+  border-left: 3px solid #7cf03d;
+}
+footer .parent .follow h2{
+  font-size: 22px;
+}
+footer .parent .follow a i{
+  font-size: 20px;
+}
+ /*footer end*/
+}
+/*responsib end*/

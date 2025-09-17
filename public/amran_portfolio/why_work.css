@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background: #1F242D;
+  color: #e2e8f0;
+}
+
+.why-dark {
+  padding: 90px 20px;
+  background: #1F242D;
+  margin-top: 20px;
+}
+
+.why-dark .container {
+  max-width: 1100px;
+  margin: auto;
+  text-align: center;
+}
+
+.why-dark .title {
+  font-size: 2.6rem;
+  font-weight: 600;
+  margin-bottom: 12px;
+  color: #f1f5f9;
+}
+
+.why-dark .subtitle {
+  font-size: 1.1rem;
+  color: #a0aec0;
+  margin: 0 auto 60px auto;
+  max-width: 650px;
+}
+
+.why-dark .cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 25px;
+}
+
+.why-dark .card {
+  backdrop-filter: blur(14px);
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 20px;
+  padding: 40px 25px;
+  transition: all 0.4s ease;
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+}
+
+.why-dark .card:hover {
+  transform: translateY(-8px) scale(1.03);
+  border-color: rgba(0, 212, 255, 0.4);
+  box-shadow: 0 10px 30px rgba(0, 212, 255, 0.25);
+}
+
+.why-dark .icon {
+  font-size: 2.3rem;
+  margin-bottom: 18px;
+  color: #7cf03d; /* Accent neon blue */
+}
+
+.why-dark .card h3 {
+  color: #f8fafc;
+  margin-bottom: 10px;
+  font-size: 1.25rem;
+}
+
+.why-dark .card p {
+  color: #cbd5e1;
+  line-height: 1.6;
+  font-size: 0.95rem;
+}
