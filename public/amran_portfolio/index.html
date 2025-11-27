@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html>
-
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+      if (window.Median && window.Median.statusBar) {
+          window.Median.statusBar.setVisibility(false);
+      }
+  });
+</script>
 <head>
   <link rel="stylesheet" href="style.css"/>
   <link rel="stylesheet" href="responsive.css"/>
